@@ -30,7 +30,7 @@ public class BubbleSort {
         }
         return arr;
     }
-   
+
     public static void main(String[] args) {
         Arrays.stream(ascSort(new int[]{8, 2, 6, 5, 4, 32, 0, 99, 1})).forEach(x -> System.out.print(x + ","));
         System.out.println();
