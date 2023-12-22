@@ -5,7 +5,7 @@ public class LinkedList {
     Node head;
 
     //add
-    private void addNode(int data) {
+    protected void addNode(int data) {
         if (head == null) {
             head = new Node(data);
         } else {
@@ -77,6 +77,11 @@ public class LinkedList {
         }
         System.out.println();
 
+    }
+
+    protected Node getFirstNode(){
+        Node first = head;
+        return first!=null ? first : null;
     }
 
     public static void main(String[] args) {

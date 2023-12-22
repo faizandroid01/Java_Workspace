@@ -10,11 +10,4 @@ public class LLlength {
         return 1+lengthOfLL(node.next);
     }
 
-    public static void main(String[] args) {
-
-
-
-        
-    }
-
 }
