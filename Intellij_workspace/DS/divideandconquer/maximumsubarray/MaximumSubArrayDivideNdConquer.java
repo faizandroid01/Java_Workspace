@@ -11,7 +11,7 @@ import java.lang.Math;
  * 3. Greedy Algo
  * **/
 
-public class MaximumSubArray {
+public class MaximumSubArrayDivideNdConquer {
 
     public static int maximumSubArray(int[] arr, int l, int h) {
         if(l==h){

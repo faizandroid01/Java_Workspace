@@ -28,7 +28,7 @@ public class GreedyFibonacci {
         return arr[n];
     }
     public static void main(String[] args) {
-        System.out.println("Normal Fibonacci : "+fibonacci(5));
+      //  System.out.println("Normal Fibonacci : "+fibonacci(5));
         System.out.println("Greedy Fibonacci : "+greedyFibonacci(5));
     }
 }
